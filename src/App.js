@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>This is the wallet connecting page</h1>
+      <h1>🔌</h1>
       {connectionState.loading ? (
         <Spinner />
       ) : connectionState.errMsg === "" ? (
